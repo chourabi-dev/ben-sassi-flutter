@@ -1,9 +1,6 @@
-import 'package:app/views/album.dart';
-import 'package:app/views/custom_navigation.dart';
-import 'package:app/views/demo.dart';
-import 'package:app/views/messenger.dart';
-import 'package:app/views/tabbar_page.dart';
-import 'package:app/views/vibrator_exmple.dart';
+import 'package:app/views/check_screen.dart';
+import 'package:app/views/todoList.dart';
+import 'package:app/views/users_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -36,9 +33,8 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
-        
       ),
-      home: VibratorExmple()
+      home: UsersScreen() //TodoList()  // CheckScreen()
     );
   }
 }
